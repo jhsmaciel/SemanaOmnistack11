@@ -11,9 +11,10 @@ routes.get('/ongs', getOngs )
 routes.get('/profile', getProfileIncidents)
 
 routes.post('/incidents', createIncident )
+
 routes.get('/incidents', getIncidents )
 routes.delete('/incidents/:id', deleteIncident)
 
-routes.get('/sessions', getNameById)
+routes.post('/sessions', getNameById)
 
 module.exports = routes;

@@ -1,5 +1,5 @@
 const connection = require("../database");
-const table = "ong";
+const table = "ongs";
 
 module.exports = {
     async getNameById(request, response) {
